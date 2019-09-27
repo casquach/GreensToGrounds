@@ -1,0 +1,397 @@
+new@font-face
+ {
+	font-family: Bentham;
+	src: local('Bentham'),
+url(Bentham.otf) format('opentype');
+ }
+
+body
+ {
+	margin:auto;
+	width:100%;
+	font-size:18px; 
+	background-image:url('lib/imgs/');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #414141;
+ }
+
+ .logo 
+ {
+	float:  left;
+	margin: .5em;
+}	
+
+.nav 
+{
+	font-size: 50px;
+	color: #add8e6;
+	float:left;
+	margin:.5em;
+}
+
+.navwrap
+{
+    width: 100%;
+}
+
+.sidebar 
+{
+	height: 500px;
+	width: 300px;
+	background-color:#add8e6;
+	border-radius: 15px;
+	color: #ee7600;
+	float: left;
+	margin-left: 1em;
+	
+}
+
+.statement
+{
+	color:#add8e6;
+	background-color: black;
+	width: 1000px;
+	height: 200px;
+	border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.ourmission
+{
+	padding: 5px;
+	clear: both;
+	top: 140%;
+	left: 10%;
+	text-align: center;
+`}
+
+.buylink
+{
+	font-size:75px;
+	margin:.25em;
+}
+	
+div.main
+ {
+	background-color:#CBCBCB;
+	width:60%;
+ }
+
+div.intro
+ {
+	background-color:#CBCBCB;
+	font-family: 'Bentham';
+ }
+
+div.content
+ {
+	color:#FFF;
+	font-family:'';
+	float:left;
+	text-align: left;
+ }
+
+
+
+ div.orderform
+ {
+ 	width: 1000px;
+ 	background-color: #B2B2B2;
+ 	text-align: left;
+ 	float: left; 
+ 	border:2px solid #B2B2B2;
+ 	border-radius:20px;
+ 	padding:20px;
+ }
+ div.blog
+ {
+	width: 1000px;
+ 	background-color: #999999;
+ 	text-align: left;
+ 	float: left; 
+ 	border:2px solid #B2B2B2;
+ 	border-radius:20px;
+ 	padding:20px;
+	margin-left: 10em;
+ }
+ /*
+ div.slideshow
+ {
+    text-align: center;
+    margin-top: 0em; 
+}
+*/
+div.totw
+ {
+	background-color:#CBCBCB;
+	color:#000;
+	font-family:'';
+ }
+
+div.info
+ {
+	background-color:#272727;
+	color:#FFF;
+	font-size:12px;
+	font-weight:bold;
+ }
+
+div.copy
+ {
+	padding-top:2px;
+	padding-bottom:2px;
+	background-color:#FFF;
+	color:#000;
+	font-size:13px;
+	font-weight:bold;
+ }
+
+
+a.current
+ {
+	color:#008FFE;
+ }
+
+a.nav:hover
+ {
+	color:#FE7E1D;
+ }
+
+a.socmed
+ {
+	color:#008FFE;
+ }
+
+a
+ {
+	text-decoration:none;
+	color:#FFF;
+	font-size:19px;
+ }
+
+a:hover
+ {
+	color:#008FFE;
+ }
+
+h1
+{
+
+}
+
+h2
+ {
+	color: #add8e6;
+ }
+
+h3
+ {
+	font-size:22px;
+ }
+
+h4
+ {
+	font-size:20px;
+ }
+
+p
+ {
+	
+ }
+ul
+{
+	list-style-type: none;
+}
+
+ul.horiz
+ {
+	list-style-type:none;
+ }
+
+ ul.food
+ {
+	list-style-type: none;
+}
+.center
+ {
+	text-align:center;
+ }
+
+
+
+.padsides
+ {
+	padding-left:3%;
+	padding-right:3%;
+ }
+
+.padtop
+ {
+	padding-top:1%;
+ }
+
+.left
+ {
+	float:left;
+ }
+
+.right
+ {
+	float:right;
+ }
+
+.auto
+ {
+	margin:auto;
+ }
+
+
+.infocolor
+ {
+	color:#515151;
+ }
+
+.disp
+ {
+	display:block;
+ }
+
+.orange
+ {
+	color:#FE7E1D;
+ }
+
+.blue
+ {
+	color:#008FFE;
+ }
+
+.aboutDisp
+{
+	min-height:500px;
+}
+
+.gallImg
+{
+	width:400px;
+	height:440px;
+}
+
+.hidden
+{
+	display:none;
+}
+
+.udec
+{
+	text-decoration:underline;
+}
+
+.movement {
+	font-size: 50px;
+	color: #add8e6;
+	float:left;
+	margin: auto;
+	font:quicksand;
+	}
+	
+
+
+.footer {
+	clear: both;
+	text-align:center;
+	}
+	
+#mc_embed_signup
+{
+	clear: both;
+	background:#414141;  
+	color: white;
+	font:14px Helvetica,Arial,sans-serif;
+	text-align: center;
+ }
+
+	
+.contact
+{
+	margin-left: 25em;
+	width: 600px;
+}
+
+.formwords
+{
+	color:black;
+}
+
+#faqs {float: left;}
+#faqs dt, #faqs dd { padding: 0 0 0 50px }
+#faqs dt { font-size:1.5em; color: #add8e6; cursor: pointer; height: 37px; line-height: 37px; margin: 0 0 15px 25px}
+#faqs dd { font-size: 1em; margin: 0 0 20px 25px; color: white}
+/*
+#faqs dt { background-image: url("lib/imgs/expand-icon.png") no-repeat left}
+#faqs .expanded { background-image: url("lib/imgs/expanded-icon.png") no-repeat left}
+*/
+
+aside   
+{
+    width: 290px;
+    float: left;
+    margin-left: 2em;
+    /*margin-top: 9.5em;*/
+    padding: 0px 0px 0px 20px;
+    color: #add8e6;
+}
+aside section a 
+{
+    display: block;
+    padding: 10px;
+/*    border-bottom: 1px solid #eeeeee;*/
+}
+/*
+aside section a:hover 
+{				
+    color: #985d6a;
+    background-color: #efefef;
+}
+*/
+
+
+.news
+{
+    width: 260px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+    color: #add8e6;
+    text-decoration: none;
+}
+
+
+.news section a
+{
+    display: block;
+    padding: 10px;
+}
+
+
+.news section a:hover
+{
+    background:none;
+}
+
+.jumbotron
+{
+	background-color: #add8e6;
+	margin-left: 2em; 
+}
+
+.rowwrap
+{
+	margin-left: 3em;
+}
+

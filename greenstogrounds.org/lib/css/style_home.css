@@ -1,0 +1,184 @@
+ /* Global Styles */
+ html,
+ body {
+   height: 100%;
+   font-size: 16px;
+     overflow-x: hidden;
+ }
+ #footwrap li {
+   list-style: none;
+   display: inline-block;
+   padding: 0;
+   margin: 0;
+ }
+ .nav li {
+   color: #add8e6 !important;
+ }
+ .nav ul {
+   padding-right: 1em;
+ }
+ body {
+   padding-top: 50px;
+   /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+ }
+ .img-portfolio {
+   margin-bottom: 30px;
+ }
+ .img-hover:hover {
+   opacity: 0.8;
+ }
+ /* Home Page Carousel */
+ header.carousel {
+   height: 50%;
+ }
+ header.carousel .item,
+ header.carousel .item.active,
+ header.carousel .carousel-inner {
+   height: 100%;
+ }
+ header.carousel .fill {
+   width: 100%;
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+ }
+ /* 404 Page Styles */
+ .error-404 {
+   font-size: 100px;
+ }
+ /* Footer Styles */
+ footer {
+   margin: 0;
+ }
+ /* Responsive Styles */
+ @media (max-width: 991px) {
+   .customer-img,
+   .img-related {
+     margin-bottom: 30px;
+   }
+ }
+ @media (max-width: 767px) {
+   .img-portfolio {
+     margin-bottom: 15px;
+   }
+   header.carousel .carousel {
+     height: 70%;
+   }
+ }
+ .well {
+   margin-top: 1em;
+   background-color: #add8e6;
+   font-family: 'Nobile', Helvetica, Arial, sans-serif;
+ }
+ .well .btn {
+   font-family: 'Vollkorn', Georgia, Times, serif;
+ }
+ .navbar-header {
+   height: 70px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: 'Vollkorn', Georgia, Times, serif;
+ }
+ p,
+ div,
+ ul,
+ li {
+   font-family: 'Vollkorn', Helvetica, Arial, sans-serif;
+ }
+ a.navbar-brand {
+   margin: 0;
+   padding: 0;
+ }
+ .container-fluid {
+   height: 80;
+ }
+ .social {
+   display: inline-block;
+ }
+ #formbg {
+   background-color: gray;
+   border-radius: 5px;
+   padding-bottom: 1em;
+ }
+ .orderpage {
+   background-color: darkgray;
+ }
+ .bg {
+   background-color: darkgray;
+   margin-top: -1em;
+   margin-bottom: -1em;
+ }
+ .row {
+   margin-bottom: 1em;
+ }
+ .history {
+   text-align: center;
+ }
+ .navbar-inverse .navbar-nav>li>a {
+   color: #000;
+ }
+ #myCarousel {
+   padding: 5px;
+ }
+ #cta {
+   padding-top: 7%;
+   font-size: 26px;
+   height: 75px;
+   margin-top: 30px;
+   vertical-align: middle;
+ }
+ .food-desc {
+   line-height: 1.5;
+   font-size: 20px;
+ }
+ .rounded {
+   border-radius: 30px;
+   -o- border-radius: 30px;
+   -moz-border-radius: 30px;
+   -khtml-border-radius: 30px;
+   -webkit-border-radius: 30px;
+ }
+ @media (min-width: 768px) {
+   .navbar .navbar-nav {
+     display: inline-block;
+     float: none;
+     vertical-align: top;
+   }
+   .navbar .navbar-collapse {
+     text-align: center;
+   }
+   .navbar ul {
+     margin-right: 10px;
+     display: table-row;
+   }
+   .navbar ul li {
+     display: table-cell;
+     margin-right: 30px;
+     padding-top: 7px;
+   }
+   .navbar ul li a {
+     display: table-cell;
+   }
+ }
+ .see-more {
+   width: 100%;
+   font-size: 16px;
+ }
+
+.fa{
+  color: orange;
+  padding-left: 5px;
+}
+
+.contact-social{
+ list-style: none;
+}
+
+.form-control{
+  max-width: 500px;
+}

@@ -1,0 +1,28 @@
+.news-container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    background-color: #ebebeb;
+}
+
+.news-row {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.order-header-container {
+    height: 400px;
+}
+
+.order-logo {
+    width: 157px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.order-header {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+}

@@ -1,0 +1,88 @@
+Return-Path: <>
+X-Original-To: admin_gtg@ringside.dreamhost.com
+Delivered-To: admin_gtg@ringside.dreamhost.com
+Received: from iad1-shared-relay2.dreamhost.com (iad1-shared-relay2.dreamhost.com [208.113.157.41])
+	by ringside.dreamhost.com (Postfix) with ESMTP id 149F8160077
+	for <admin_gtg@ringside.dreamhost.com>; Sat,  8 Sep 2018 13:22:04 -0700 (PDT)
+Received: by iad1-shared-relay2.dreamhost.com (Postfix)
+	id DD8F43AA5AD; Sat,  8 Sep 2018 13:22:03 -0700 (PDT)
+Date: Sat,  8 Sep 2018 13:22:03 -0700 (PDT)
+From: MAILER-DAEMON@iad1-shared-relay2.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: admin_gtg@ringside.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="CDA383ACCB6.1536438123/iad1-shared-relay2.dreamhost.com"
+Message-Id: <20180908202203.DD8F43AA5AD@iad1-shared-relay2.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--CDA383ACCB6.1536438123/iad1-shared-relay2.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host iad1-shared-relay2.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<gjs4tu@virginia.edu.com>: Host or domain name not found. Name service error
+    for name=virginia.edu.com type=MX: Host not found, try again
+
+--CDA383ACCB6.1536438123/iad1-shared-relay2.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; iad1-shared-relay2.dreamhost.com
+X-Postfix-Queue-ID: CDA383ACCB6
+X-Postfix-Sender: rfc822; admin_gtg@ringside.dreamhost.com
+Arrival-Date: Wed,  5 Sep 2018 13:05:56 -0700 (PDT)
+
+Final-Recipient: rfc822; gjs4tu@virginia.edu.com
+Original-Recipient: rfc822;gjs4tu@virginia.edu.com
+Action: failed
+Status: 4.4.3
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=virginia.edu.com type=MX: Host not found, try again
+
+--CDA383ACCB6.1536438123/iad1-shared-relay2.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <admin_gtg@ringside.dreamhost.com>
+Received: from iad1-shared-relay1.dreamhost.com (iad1-shared-relay1.dreamhost.com [208.113.157.50])
+	by iad1-shared-relay2.dreamhost.com (Postfix) with ESMTP id CDA383ACCB6
+	for <gjs4tu@virginia.edu.com>; Wed,  5 Sep 2018 13:05:56 -0700 (PDT)
+Received: from ringside.dreamhost.com (ringside.dreamhost.com [173.236.184.120])
+	by iad1-shared-relay1.dreamhost.com (Postfix) with ESMTP id A261AB4009A
+	for <gjs4tu@virginia.edu.com>; Wed,  5 Sep 2018 12:59:34 -0700 (PDT)
+Received: by ringside.dreamhost.com (Postfix, from userid 5019899)
+	id 7CB2D160083; Wed,  5 Sep 2018 13:05:14 -0700 (PDT)
+To: gjs4tu@virginia.edu.com
+Subject: GreensToGrounds | Questions/Concerns
+X-PHP-Originating-Script: 5019899:complete_order.php
+From:gjs4tu@virginia.edu.com
+Message-Id: <20180905200514.7CB2D160083@ringside.dreamhost.com>
+Date: Wed,  5 Sep 2018 13:05:14 -0700 (PDT)
+
+
+			Name: Kayla Currie
+			Email: kmc4ps@virginia.edu
+			Message: lactose intolerant... not allergy but sensitivity 
+
+--CDA383ACCB6.1536438123/iad1-shared-relay2.dreamhost.com--

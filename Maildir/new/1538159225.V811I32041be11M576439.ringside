@@ -1,0 +1,88 @@
+Return-Path: <>
+X-Original-To: admin_gtg@ringside.dreamhost.com
+Delivered-To: admin_gtg@ringside.dreamhost.com
+Received: from iad1-shared-relay2.dreamhost.com (iad1-shared-relay2.dreamhost.com [208.113.157.41])
+	by ringside.dreamhost.com (Postfix) with ESMTP id 8BA03160079
+	for <admin_gtg@ringside.dreamhost.com>; Fri, 28 Sep 2018 11:27:05 -0700 (PDT)
+Received: by iad1-shared-relay2.dreamhost.com (Postfix)
+	id 611EC46B933; Fri, 28 Sep 2018 11:27:05 -0700 (PDT)
+Date: Fri, 28 Sep 2018 11:27:05 -0700 (PDT)
+From: MAILER-DAEMON@iad1-shared-relay2.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: admin_gtg@ringside.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="BEFF4427F31.1538159225/iad1-shared-relay2.dreamhost.com"
+Message-Id: <20180928182705.611EC46B933@iad1-shared-relay2.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--BEFF4427F31.1538159225/iad1-shared-relay2.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host iad1-shared-relay2.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<gjs4tu@virginia.edu.com>: Host or domain name not found. Name service error
+    for name=virginia.edu.com type=MX: Host not found, try again
+
+--BEFF4427F31.1538159225/iad1-shared-relay2.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; iad1-shared-relay2.dreamhost.com
+X-Postfix-Queue-ID: BEFF4427F31
+X-Postfix-Sender: rfc822; admin_gtg@ringside.dreamhost.com
+Arrival-Date: Tue, 25 Sep 2018 11:00:56 -0700 (PDT)
+
+Final-Recipient: rfc822; gjs4tu@virginia.edu.com
+Original-Recipient: rfc822;gjs4tu@virginia.edu.com
+Action: failed
+Status: 4.4.3
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=virginia.edu.com type=MX: Host not found, try again
+
+--BEFF4427F31.1538159225/iad1-shared-relay2.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <admin_gtg@ringside.dreamhost.com>
+Received: from iad1-shared-relay1.dreamhost.com (iad1-shared-relay1.dreamhost.com [208.113.157.50])
+	by iad1-shared-relay2.dreamhost.com (Postfix) with ESMTP id BEFF4427F31
+	for <gjs4tu@virginia.edu.com>; Tue, 25 Sep 2018 11:00:56 -0700 (PDT)
+Received: from ringside.dreamhost.com (ringside.dreamhost.com [173.236.184.120])
+	by iad1-shared-relay1.dreamhost.com (Postfix) with ESMTP id C712DB40093
+	for <gjs4tu@virginia.edu.com>; Tue, 25 Sep 2018 10:53:09 -0700 (PDT)
+Received: by ringside.dreamhost.com (Postfix, from userid 5019899)
+	id 725A1160085; Tue, 25 Sep 2018 11:00:14 -0700 (PDT)
+To: gjs4tu@virginia.edu.com
+Subject: GreensToGrounds | Questions/Concerns
+X-PHP-Originating-Script: 5019899:order.php
+From:gjs4tu@virginia.edu.com
+Message-Id: <20180925180014.725A1160085@ringside.dreamhost.com>
+Date: Tue, 25 Sep 2018 11:00:14 -0700 (PDT)
+
+
+			Name: Natalie Groder
+			Email: nmg2va@virginia.edu
+			Message: I do not eat mushrooms, could the mushrooms be replaced with another produce item such as jonagold apples or green leaf lettuce?
+
+--BEFF4427F31.1538159225/iad1-shared-relay2.dreamhost.com--

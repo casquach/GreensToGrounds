@@ -1,0 +1,282 @@
+@font-face {
+	font-family: oswald;
+	src: url(../fonts/oswald_regular.ttf);
+}
+
+@font-face {
+	font-family: cedar;
+	src: url(../fonts/Cedarville_Cursive.ttf);
+}
+
+@font-face {
+	font-family: quicksand;
+	src: url(../fonts/Quicksand.otf);
+}
+
+.oswald
+{
+	font-family:oswald;
+}
+
+.cedar
+{
+	font-family:cedar;
+}
+
+.quicksand
+{
+	font-family:quicksand;
+}
+
+div.container
+{
+	width:1235px;
+}
+
+div.title
+{
+
+}
+
+div.nav
+{
+	left:400px;
+	top:270px;
+	position:absolute;
+	padding: 5px 10px 10px 5px;
+}
+
+div.content
+{
+	padding:150px 0px 0px 100px;
+	width:725px;
+}
+
+div.footer
+{
+	padding-left:480px;
+}
+
+div.faqinfo
+{
+	background-image: url(lib/imgs/tomatoes.jpg);
+}
+
+a.nav
+{
+	color:#666666;
+	text-decoration:none;
+	font-family:oswald;
+	font-size:13px;
+	font-weight:400;
+	line-height:19px;
+	text-align:left;
+	padding:5px;
+	width:auto;
+}
+
+a.nav:hover
+{
+	color:#cccccc;
+}
+
+a.current
+{
+	color:#cccccc;
+}
+
+a.buylink
+{
+	color:#000;
+	text-decoration:none;
+}
+
+a.buylink:hover
+{
+	color:#666;
+}
+
+h1.title
+{
+	text-align:center;
+	color:#339900;
+	padding:2px;
+}
+
+span.title_greens
+{
+	font-family:oswald;
+	font-size:90px;
+	left:313px;
+	top:62px;
+	position:absolute;
+	width:396px;
+}
+
+span.title_to
+{
+	font-family:oswald;
+	font-size:30px;
+	left:500px;
+	top:180px;
+	position:absolute;
+	line-height:14px;
+}
+
+span.title_grounds
+{
+	font-family:cedar;
+	font-size:90px;
+	left:299px;
+	top:125px;
+	position:absolute;
+	width:447px;
+	min-height:192px;
+}
+
+img.content
+{
+
+	height:502px;
+	width:765px;
+}
+
+.center
+{
+	text-align:center;
+}
+
+.left
+{
+	text-align:left;
+}
+
+.right
+{
+	text-align:right;
+}
+
+div.faq
+{
+	text-align:center;
+	font-family:quicksand;
+	color:#565a5c;
+}
+
+.b
+{
+	font-weight:bold;
+}
+
+ul.nopad
+{
+	padding:0px;
+}
+
+ul.food
+{
+	font-weight:bold;
+}
+
+li
+{
+	list-style-type:none;
+}
+
+table
+{
+	border: 0;
+	padding: 0;
+	margin: 0 0 20px 0;
+	border-collapse: collapse;
+}
+th
+{
+	padding: 5px;
+	font-weight:bold;
+	line-height: 2em;
+	color: #FFF;
+	background-color: #555;
+}
+tbody td
+{
+	padding: 10px;
+	line-height: 18px;
+	border-top: 1px solid #E0E0E0;
+}
+tbody tr:nth-child(2n)
+{
+	background-color: #F7F7F7;
+}
+tbody tr:hover
+{
+	background-color: #EEEEEE;
+}
+td
+{
+	text-align: right;
+}
+td:first-child, th:first-child
+{
+
+}
+td.newweek
+{
+	text-align: left;
+}
+
+.error
+{
+	color:#f00;
+}
+
+.hidden
+{
+	display:none;
+}
+
+.boxPad
+{
+	padding-left:40px;
+}
+
+.smaller
+{
+	font-size:15px;
+}
+
+.larger
+{
+	font-size:18px;
+}
+
+.grey
+{
+	color:#666;
+}
+
+.subheader
+{
+	text-decoration: underline;
+	font-size:18px;
+}
+
+.u
+{
+	text-decoration: underline;
+}
+
+#header-fixed
+{
+	position:fixed;
+	top:0px;
+	display:none;
+	background-color:white;
+}
+
+.button
+{
+	padding:5px;
+	font-weight:bold;
+}
+
