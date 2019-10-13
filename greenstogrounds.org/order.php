@@ -25,7 +25,7 @@ if(isset($_POST['submit']) && isset($_POST['discount'])) {
 		$errors .= "\n Bad discount value!";
 
 	//For ODOS box
-	if($discount == "BS42F6R3") {
+	if($discount == "HAB3FD7P") {
 		// check times used
 		$sql = $mysqli->prepare("SELECT times_used FROM annon_data WHERE discount_code='$discount'");
 		$sql->execute();
@@ -33,7 +33,7 @@ if(isset($_POST['submit']) && isset($_POST['discount'])) {
 		$sql->bind_result($times_used);
 		$sql->fetch();
 
-		if($times_used >= 38) {
+		if($times_used >= 40) {
 			$errors .= "\n Unfortunately this discount code has been used too many times this week, please check in tomorrow to see if we have increased the amount of people who can use the discount code this week. If not we hope you come back next week so we can get you a box!";
 			$maxReached = true;
 		}
@@ -43,7 +43,7 @@ if(isset($_POST['submit']) && isset($_POST['discount'])) {
 			die;
 		}
 	}
-	
+
 	//for free box from survey - 1
 	else if($discount == "TEST300") {
 		// check times used
