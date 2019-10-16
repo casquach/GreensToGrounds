@@ -36,7 +36,7 @@
 
 		//$sql = "ALTER TABLE sp1015gtgpaidresponsebl CHANGE September_12th `September 12th` varchar(65)";
 		//$result = mysql_query($sql, $conn);
-		$sql = "SELECT * FROM paid_orders WHERE timestamp LIKE '%09/23/2019%' OR timestamp LIKE '%09/24/2019%' OR timestamp LIKE '%09/25/2019%'  AND name != '' AND lower(paid_orders.name) NOT LIKE '%test%' ORDER BY `paid_orders`.`timestamp` DESC";
+		$sql = "SELECT * FROM paid_orders WHERE timestamp LIKE '%10/14/2019%' OR timestamp LIKE '%10/15/2019%' OR timestamp LIKE '%10/16/2019%'  AND name != '' AND lower(paid_orders.name) NOT LIKE '%test%' ORDER BY `paid_orders`.`timestamp` DESC";
 
 
 		$result = $mysqli->query($sql);
