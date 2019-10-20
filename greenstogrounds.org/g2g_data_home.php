@@ -147,6 +147,78 @@ session_start();
 		print "<thead style='background-color:white;'><tr>\n";
 		print "<th>Semester</th><th>Week</th><th>Total Orders</th><th>Plus Orders</th><th>Gross Profit</th><th>1st Yr Orders</th><th>2nd Yr Orders</th><th>3rd Yr Orders</th><th>4th Yr Orders</th><th>Misc. Orders</th><th>Food Stats</th>";
 		if (true){
+			$sql = "SELECT COUNT(*) as count FROM paid_orders WHERE timestamp LIKE '%10/21/2019%' OR timestamp LIKE '%10/22/2019%' OR timestamp LIKE '%10/23/2019%' AND name != '' AND lower(paid_orders.name) NOT LIKE '%test%' ORDER BY `paid_orders`.`timestamp` DESC";
+			$plusSql = "SELECT COUNT(*) FROM plusdollars_orders WHERE timestamp LIKE '%10/21/2019%' OR timestamp LIKE '%10/22/2019%' OR timestamp LIKE '%10/23/2019%'";
+			$sql2 = "SELECT SUM(cost) as sum FROM paid_orders WHERE timestamp LIKE '%10/21/2019%' OR timestamp LIKE '%10/22/2019%' OR timestamp LIKE '%10/23/2019%' AND name != '' AND lower(paid_orders.name) NOT LIKE '%test%' ORDER BY `paid_orders`.`timestamp` DESC";
+			$sql3 = "SELECT COUNT(year)  FROM paid_orders WHERE paid_orders.year like '%1st%' AND ( timestamp LIKE '%10/21/2019%' OR timestamp LIKE '%10/22/2019%' OR timestamp LIKE '%10/23/2019%')";
+			$sql4 = "SELECT COUNT(year)  FROM paid_orders WHERE paid_orders.year like '%2nd%' AND ( timestamp LIKE '%10/21/2019%' OR timestamp LIKE '%10/22/2019%' OR timestamp LIKE '%10/23/2019%')";
+			$sql5 = "SELECT COUNT(year)  FROM paid_orders WHERE paid_orders.year like '%3rd%' AND (timestamp LIKE '%10/21/2019%' OR timestamp LIKE '%10/22/2019%' OR timestamp LIKE '%10/23/2019%')";
+			$sql6 = "SELECT COUNT(year)  FROM paid_orders WHERE paid_orders.year like '%4th%' AND (timestamp LIKE '%10/21/2019%' OR timestamp LIKE '%10/22/2019%' OR timestamp LIKE '%10/23/2019%')";
+			$sql7 = "SELECT COUNT(year)  FROM paid_orders WHERE (paid_orders.year NOT LIKE '%1st%' AND paid_orders.year NOT LIKE '%2nd%' AND paid_orders.year NOT LIKE '%3rd%' AND paid_orders.year NOT LIKE '%4th%') AND ( timestamp LIKE '%10/21/2019%' OR timestamp LIKE '%10/22/2019%' OR timestamp LIKE '%10/23/2019%')";
+
+
+			$result = $mysqli->query($sql);
+			$plusResult = $mysqli->query($plusSql);
+			$result2 = $mysqli->query($sql2);
+			$result3 = $mysqli->query($sql3);
+			$result4 = $mysqli->query($sql4);
+			$result5 = $mysqli->query($sql5);
+			$result6 = $mysqli->query($sql6);
+			$result7 = $mysqli->query($sql7);
+
+			print "</tr></thead>\n\n<tbody>";
+
+			print "<tr>\n";
+			print "<td>Fall '19</td>";
+			print "<td>(10/21/2019-10/23/2019) </td>";
+
+			$print1 = "";
+			$printplus = "";
+			$print2 = "";
+			$print3 = "";
+			$print4 = "";
+			$print5 = "";
+			$print6 = "";
+			$print7 = "";
+			while($row = $result->fetch_assoc()){
+				$print1 = $row['count'];
+			}
+			while($row = $plusResult->fetch_assoc()){
+				$printplus = $row['COUNT(*)'];
+			}
+			while($row = $result2->fetch_assoc()){
+				$print2 = $row['sum'];
+			}
+			while($row = $result3->fetch_assoc()){
+				$print3 = $row['COUNT(year)'];
+			}
+			while($row = $result4->fetch_assoc()){
+				$print4 = $row['COUNT(year)'];
+			}
+			while($row = $result5->fetch_assoc()){
+				$print5 = $row['COUNT(year)'];
+			}
+			while($row = $result6->fetch_assoc()){
+				$print6 = $row['COUNT(year)'];
+			}
+			while($row = $result7->fetch_assoc()){
+				$print7 = $row['COUNT(year)'];
+			}
+
+			print "<td>$print1</td>";
+			print "<td>$printplus</td>";
+			print "<td>$print2</td>";
+			print "<td>$print3</td>";
+			print "<td>$print4</td>";
+			print "<td>$print5</td>";
+			print "<td>$print6</td>";
+			print "<td>$print7</td>";
+			print "<td> <a href='weekly_stats.php'>Weekly Stats</a> </td>";
+
+			print "</tr></tbody>\n\n";
+
+		}
+		if (true){
 			$sql = "SELECT COUNT(*) as count FROM paid_orders WHERE timestamp LIKE '%10/14/2019%' OR timestamp LIKE '%10/15/2019%' OR timestamp LIKE '%10/16/2019%' AND name != '' AND lower(paid_orders.name) NOT LIKE '%test%' ORDER BY `paid_orders`.`timestamp` DESC";
 			$plusSql = "SELECT COUNT(*) FROM plusdollars_orders WHERE timestamp LIKE '%10/14/2019%' OR timestamp LIKE '%10/15/2019%' OR timestamp LIKE '%10/16/2019%'";
 			$sql2 = "SELECT SUM(cost) as sum FROM paid_orders WHERE timestamp LIKE '%10/14/2019%' OR timestamp LIKE '%10/15/2019%' OR timestamp LIKE '%10/15/2019%' AND name != '' AND lower(paid_orders.name) NOT LIKE '%test%' ORDER BY `paid_orders`.`timestamp` DESC";
@@ -3210,6 +3282,8 @@ if (true){
 
 
 		}
+
+
 
 
 		print "</table></div>";
