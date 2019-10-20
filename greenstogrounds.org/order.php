@@ -25,7 +25,7 @@ if(isset($_POST['submit']) && isset($_POST['discount'])) {
 		$errors .= "\n Bad discount value!";
 
 	//For ODOS box
-	if($discount == "HAB3FD7P") {
+	if($discount == "ZYG4TEAP") {
 		// check times used
 		$sql = $mysqli->prepare("SELECT times_used FROM annon_data WHERE discount_code='$discount'");
 		$sql->execute();
