@@ -35,7 +35,7 @@
 		<div class="content-container">
 		  <div class="our-mission-container row " id="here">
 			<div class="our-mission-left eight columns">
-			  <div class="our-mission-header">our mission</div>
+			  <div class="our-mission-header">Our mission</div>
 			  <div class="our-mission-body">We are a non-profit, student-run CSA (community supported agriculture) model bringing fresh, local produce and specialty items to the UVA community. We strive to foster a more sustainable relationship between UVA and Charlottesville food producers. We seek to provide students, faculty, and staff with access to fresh, seasonal, and local food on a weekly basis, while providing local farmers and artisans with dedicated support from the University community. Join us in eating well, supporting Central Virginia farmers, and celebrating local food.</div>
 			</div>
 			<div class="our-mission-logo four columns"><img src="lib/imgs/handshake.png" alt="handshake"></div>
