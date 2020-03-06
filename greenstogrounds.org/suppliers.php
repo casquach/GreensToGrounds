@@ -18,30 +18,30 @@
     <?php include 'inc/nav.php'; ?>
 
       <div class="order-header-container">
-       <img src="lib/imgs/OurSuppliers.png" alt="header" width="1270"></div><p><p>
+       <img src="lib/imgs/OurSuppliers.png" alt="header" width="1270" class="center"></div><p><p>
            <div class="answer"><center>Greens to Grounds sources local products from a variety of farms, gardens and value-added producers from in and around the Charlottesville/Albemarle County foodshed.  This includes products which we source directly from farms, bakeries, cheese-makers, and community gardens, and produce conglomerated from multiple farms by the Local Food Hub.  Here are some of our favorite producers we’ve been proud to work with over the past few years:</center>
           <div class="row">
             <div class="floated_img">
               <a href="#here1"><img src="lib/imgs/lfh-main.png" alt="lfh"></a>
-              <p>Local Food Hub</p>
+              <a href="#here1"><div class="image-text">Local Food Hub</div></a>
             </div><div class="floated_img">
               <a href="#here2"><img src="lib/imgs/shadylane-main.png"  alt="shadylane"></a>
-              <p>Shady Lane Family Farm</p>
+              <a href="#here2"><div class="image-text">Shady Lane Family Farm</div></a>
             </div><div class="floated_img">
               <a href="#here3"><img src="lib/imgs/caromont-main.png"  alt="caromont"></a>
-              <p>Caromont Farm</p>
+              <a href="#here3"><div class="image-text">Caromont Farm</div></a>
             </div>
           </div>
           <div class="row">
             <div class="floated_img">
               <a href="#here4"><img src="lib/imgs/mariebette-main.png"  alt="mariebetter"></a>
-              <p>MarieBette Cafe & Bakery</p>
+              <a href="#here3"><div class="image-text">MarieBette Cafe & Bakery</div></a>
             </div><div class="floated_img">
               <a href="#here5"><img src="lib/imgs/carpedonuts-main.png" alt="carpedonut"></a>
-              <p>Carpe Donut</p>
+              <a href="#here5"><div class="image-text">Carpe Donut</div></a>
             </div><div class="floated_img">
               <a href="#here6"><img src="lib/imgs/woodsons-main.jpg"  alt="woodsons"></a>
-              <p>Woodson's Mill</p>
+              <a href="#here6"><div class="image-text">Woodson’s Mill</div></a>
             </div>
             <p style="clear: both;"></p>
           </div>

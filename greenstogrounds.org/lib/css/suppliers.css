@@ -9,6 +9,7 @@ body {
 }
 
 .floated_img {
+	position: relative;
 	width: 33.3%;
 	display: inline-block;
 	margin: 0;
@@ -51,4 +52,20 @@ body {
 	padding: 20px;
 }
 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+  }
 
+.image-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 3vw;
+	color: white;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.6);
+}

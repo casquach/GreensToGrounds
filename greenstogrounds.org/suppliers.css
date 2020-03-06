@@ -51,4 +51,7 @@ body {
 	padding: 20px;
 }
 
-
+.order-header-container{
+	margin: auto;
+	width: 50%;
+}
