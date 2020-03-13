@@ -4,39 +4,39 @@
 
 .footer-info-section {
 	width: 100%;
-	height: 250px;
 	background-color: #262626;
+	color: white;
 }
 
 .footer-row {
 	width: 85%;
 	margin: 0 auto;
-	padding-top: 40px;
+	padding: 4rem 0;
 }
 
 .footer-contact-col {
-	color: white;
+	width: 50%;
 	display: inline-block;
-	width: 40%;
+	min-width: 25rem; /* pushes social media below on narrow screens */
 }
 
 p.footer {
-	width: 80%;
+	/* width: 80%; */
 }
 
 .footer-social-media {
-	color: white;
 	display: inline-block;
 	vertical-align: top;
-	width: 29%;
+	width: 30%;
+	min-width: 15rem;
 }
 
 img.footer-social-media-img {
-	width: 40px;
-	padding-right: 15px;
+	width: 25px;
+	margin-right: 15px;
 }
 
-.footer-subscribe {
+.footer-subscribe { /* currently not in use */
 	color: white;
 	display: inline-block;
 	vertical-align: top;
@@ -45,12 +45,11 @@ img.footer-social-media-img {
 
 .footer-jubil-section {
 	width: 100vw;
-	height: 50px;
 	background-color: #b1da60;
-	padding-top: 20px;
 }
 
 p.jubil-section {
-	width: 400px;
-	margin: 0 auto;
+	margin: 0;
+	padding: 1rem;
+	text-align: center;
 }

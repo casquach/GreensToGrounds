@@ -1,12 +1,20 @@
 <div class="footer-container">
   <div class="footer-info-section">
     <div class="row footer-row">
-      <div class="footer-contact-col four columns"><p class="footer">contact us<br /><br />feel free to email us with any questions, comments, or concerns:<br /><br />email &nbsp;| &nbsp;greenstogrounds@gmail.com</p></div>
-      <div class="footer-social-media four columns">social media<br /><br /><div class="footer-social-media-logos"><a href="https://instagram.com/greenstogrounds/" target="_blank"><img src="lib/imgs/instagram.png" alt="instagram" class="footer-social-media-img"></a><a href="https://www.facebook.com/greenstogrounds/timeline?ref=page_internal" target="_blank"><img src="lib/imgs/facebook.png" alt="facebook" class="footer-social-media-img"></a></div></div>
+      <div class="footer-contact-col four columns">
+        <p class="footer">contact us<br /><br />feel free to email us with any questions, comments, or concerns:<br /><a href="mailto:greenstogrounds@gmail.com">greenstogrounds@gmail.com</a></p>
+      </div>
+      <div class="footer-social-media four columns">social media<br /><br />
+        <div class="footer-social-media-logos">
+          <a href="https://instagram.com/greenstogrounds/" target="_blank"><img src="lib/imgs/instagram.png" alt="instagram" class="footer-social-media-img"></a><a href="https://www.facebook.com/greenstogrounds/timeline?ref=page_internal" target="_blank"><img src="lib/imgs/facebook.png" alt="facebook" class="footer-social-media-img"></a>
+        </div>
+      </div>
       <!--<div class="footer-subscribe four columns">subscribe<br /><br />enter your email below to receive our newsletter</div>-->
     </div>
   </div>
-  <div class="footer-jubil-section"><p class="jubil-section">&copy Katz, O'Neil & Graham | All Rights Reserved | Privacy Policy</p></div>
+  <div class="footer-jubil-section">
+    <p class="jubil-section">&copy; Katz, O'Neil & Graham | All Rights Reserved | Privacy Policy</p>
+  </div>
 </div>
 
 <!--FOOTER DESCRIPTION -->
