@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: GothamBook;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
@@ -15,7 +15,6 @@ body {
     height: 50px;
     position: absolute;
     z-index: 100;
-    padding-left: 30px;
 }
 
 ul.nav {
